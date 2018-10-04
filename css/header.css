@@ -1,3 +1,9 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 0 2em;
+}
+
 li {
     display: inline;
     list-style-type: none;
@@ -11,4 +17,31 @@ header nav {
     margin-left: auto;
     justify-content: flex-end;
     padding: 0 2em;
+    padding: 1em 0;
+
+    
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .78);
+}
+
+.menu-header li {
+    margin: 0 .6em;
+}
+
+.menu-header li a:hover {
+    text-decoration: underline;
+}
+
+.menu-header li:last-child a{
+    background-color: #4285f4;
+    color: #fff;
+    box-shadow: 0 1px  0 rgba(0, 0, 0, .15);
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: .8em 1em;
+    border-radius: 3px;
 }
