@@ -1,0 +1,173 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    width: auto;
+    height: auto;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    padding: 0 2em;
+}
+
+header nav {
+    margin-left: auto;
+    justify-content: flex-end;
+    padding: 0 2em;
+    padding: 1em 0;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .78);
+}
+
+.menu-header li {
+    margin: 0 .6em;
+}
+
+.menu-header li a:hover {
+    text-decoration: underline;
+}
+
+.menu-header li:last-child a,
+.menu-header li:last-child a:hover {
+    background-color:  #4285f4;
+    color: rgb(252, 252, 252);
+    box-shadow: 0 1px  0 rgba(0, 0, 0, .15);
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: .8em 1em;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.menu-header li:nth-child(3) a {
+    background-image: url(../img/icones-google.png);
+    background-size: 532px 68px;
+    background-position: -136px -33px;
+    opacity: .78;
+    padding: 1em;
+}
+
+main {
+    text-align: center;
+    padding: 13em;
+}
+
+main img {
+    margin-bottom: 1.5em;
+}
+
+form input {
+    padding: .7em .5em;
+    font-size: 1.2em;
+    border-radius: 0;
+    box-sizing: border-box;
+    width: 90%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.253);
+    border: 1px solid rgba(36, 36, 36, 0.178);
+}
+
+form {
+    position: relative;
+    margin-top: 1.5em;
+}
+
+form a {
+    position: absolute;
+    top: calc(2em / 2);
+    right: 7%;  
+    background-image: url(../img/teclado.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 11px;
+    width: 19px;
+    opacity: .70;
+}
+
+.btn-group {
+    display: block;
+    margin: 3.5em 0;
+}
+
+.btn-group button {
+    border-radius: 1px;
+    border: 1px solid #e2e2e2e8;
+    padding: .8em 1em;
+    font-weight: bold;
+    color: #22222299;
+    background-color: #f2f2f2;
+    box-shadow: 0
+}
+
+.btn-group button:first-child {
+    margin-right: .25em;
+}
+
+.btn-group button:last-child {
+    margin-left: .25em;
+}
+
+.btn-group button:hover,
+.btn-group button:focus {
+    color: #222;
+    background-color: #f8f8f8;
+    border: 1px solid #c2c2c2;
+}
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.pais {
+   
+    border-bottom: 1px solid #c2c2c28a;
+}
+
+.pais p {
+    padding: 0 2em;
+}
+
+footer {
+    background-color: #f2f2f2;  
+    color: rgba(0, 0, 0, .54);
+    padding-top: .1em;
+    font-size: 1.1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #c2c2c28a;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-footer ul {
+    padding: 0 1em;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .54);
+}
+
+.nav-footer a:hover {
+    text-decoration: underline;
+}
+
+.nav-footer li {
+    margin: auto 1em;
+}
